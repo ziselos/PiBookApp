@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fbutton="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/layout_loading"/>
+
+    <include
+        layout="@layout/layout_generic_error"/>
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="500dp">
+
+    </WebView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/webView"
+        android:layout_centerInParent="true"
+        android:layout_height="match_parent">
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/continueReadingButton"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        fbutton:cornerRadius="5dp"
+        fbutton:shadowEnabled="true"
+        android:layout_centerInParent="true"
+        android:text="@string/continue_reading_button_text"
+        fbutton:buttonColor="@color/fbutton_color_green_sea"
+        android:textAllCaps="false"
+        android:layout_marginBottom="@dimen/global_margin_forty"
+        fbutton:shadowHeight="5dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

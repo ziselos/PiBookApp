@@ -1,0 +1,41 @@
+<resources>
+    <!--Material colors -->
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#000000</color>
+    <color name="transparent_black_bg">#90000000</color>
+    <color name="transparent_gray_bg">#40E5E5E5</color>
+    <color name="transparent_red_bg">#10FF2424</color>
+    <color name="transparent_white_bg">#F2FFFFFF</color>
+    <color name="transparent_white_title_bg">#FAFFFFFF</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorRed">#FF2424</color>
+    <color name="colorOrange">#F2994A</color>
+    <color name="colorWarning">#FFE000</color>
+    <color name="colorGray">#8D9095</color>
+    <color name="colorGrayBg">#F6F6F6</color>
+    <color name="colorGrayTxt">#707379</color>
+    <color name="colorBlue">#07DFDC</color>
+    <color name="colorTransparent">#00000000</color>
+
+    <!-- Splash Screen -->
+    <color name="splash_screen_text_color">#1E88E5</color>
+
+    <!-- Home Screen Circle Menu Colors -->
+    <color name="colorHomeBlue">#2196F3</color>
+    <color name="colorHomeBluePressed">#1E88E5</color>
+
+    <color name="colorHomeGreen">#4CAF50</color>
+    <color name="colorHomeGreenPressed">#43A047</color>
+
+    <color name="colorHomeRed">#F44336</color>
+    <color name="colorHomeRedPressed">#E53935</color>
+
+    <color name="colorHomeOrange">#FF9800</color>
+    <color name="colorHomeOrangePressed">#FB8C00</color>
+
+    <color name="colorHomeYellow">#ffff00</color>
+    <color name="colorHomeYellowPressed">#ffff66</color>
+</resources>

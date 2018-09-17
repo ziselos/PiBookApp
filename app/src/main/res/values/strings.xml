@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">PiBook</string>
+
+
+    <!-- Splash Screen -->
+    <string name="welcome_message_text">Welcome to PiBook App</string>
+
+    <string name="toolbar_home_title_text">SDY Interactive PiBook</string>
+    <string name="toolbar_gallery_title_text">PiBook Image Gallery</string>
+
+    <string name="take_photo_button_text">Take a Photo</string>
+    <string name="record_video_button_text">Record Video</string>
+    <string name="upload_photo_button_text">Upload Photo</string>
+    <string name="continue_reading_button_text">Continue Reading</string>
+    <string name="upload_image">UPLOAD IMAGE</string>
+    <string name="read_file">This app needs access to your file storage so that it can read photos.</string>
+
+
+    <!-- Error messages -->
+    <string name="splash_screen_no_pages_error_text">Δεν υπάρχουν σελίδες για αναγνώριση</string>
+    <string name="generic_error_text">Κάτι πήγε στραβά</string>
+
+</resources>

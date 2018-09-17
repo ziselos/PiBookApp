@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="image_preview_height">450dp</dimen>
+
+    <!-- Global dimens -->
+    <dimen name="global_margin_zero">0dp</dimen>
+    <dimen name="global_margin_one">1dp</dimen>
+    <dimen name="global_margin_two">2dp</dimen>
+    <dimen name="global_margin_four">4dp</dimen>
+    <dimen name="global_margin_five">5dp</dimen>
+    <dimen name="global_margin_six">6dp</dimen>
+    <dimen name="global_margin_seven">7dp</dimen>
+    <dimen name="global_margin_eight">8dp</dimen>
+    <dimen name="global_margin_ten">10dp</dimen>
+    <dimen name="global_margin_twelve">12dp</dimen>
+    <dimen name="global_margin_fourteen">14dp</dimen>
+    <dimen name="global_margin_fifteen">15dp</dimen>
+    <dimen name="global_margin_sixteen">16dp</dimen>
+    <dimen name="global_margin_seventeen">17dp</dimen>
+    <dimen name="global_margin_eighteen">18dp</dimen>
+    <dimen name="global_margin_nineteen">19dp</dimen>
+    <dimen name="global_margin_twenty">20dp</dimen>
+    <dimen name="global_twenty_three">23dp</dimen>
+    <dimen name="global_margin_twenty_five">25dp</dimen>
+    <dimen name="global_margin_thirty">30dp</dimen>
+    <dimen name="global_margin_thirty_five">35dp</dimen>
+    <dimen name="global_margin_forty">40dp</dimen>
+    <dimen name="global_margin_fifty">50dp</dimen>
+    <dimen name="global_margin_sixty_one">61dp</dimen>
+    <dimen name="global_margin_eighty">80dp</dimen>
+    <dimen name="global_margin_ninety">90dp</dimen>
+    <dimen name="global_wave_amplitude">25dp</dimen>
+
+
+    <!-- Text sizes -->
+    <dimen name="text_size_fourteen">14sp</dimen>
+    <dimen name="text_size_ten">10sp</dimen>
+    <dimen name="text_size_twelve">12sp</dimen>
+    <dimen name="text_size_sixteen">16sp</dimen>
+    <dimen name="text_size_eighteen">18sp</dimen>
+    <dimen name="text_size_twenty">20sp</dimen>
+    <dimen name="text_size_twenty_four">24sp</dimen>
+    <dimen name="text_size_twenty_five">25sp</dimen>
+    <dimen name="text_size_thirty">30sp</dimen>
+    <dimen name="text_size_thirty_two">32sp</dimen>
+
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/loaderLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="gone">
+
+    <com.victor.loading.book.BookLoading
+        android:id="@+id/bookloading"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true" />
+
+
+</RelativeLayout>

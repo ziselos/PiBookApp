@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="gr.mobile.zisis.pibook"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="27" />
+
+    <!-- Accessing camera hardware -->
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <!-- Wikitude permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="gr.mobile.zisis.pibook.activity.splash.MainActivity"
+            android:configChanges="keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/PiBookTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="gr.mobile.zisis.pibook.activity.home.HomeActivity"
+            android:configChanges="keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/PiBookTheme" />
+        <activity
+            android:name="gr.mobile.zisis.pibook.RecognizedPageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="gr.mobile.zisis.pibook.activity.recognition.RecognitionActivity"
+            android:configChanges="keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/PiBookTheme" />
+        <activity
+            android:name="gr.mobile.zisis.pibook.activity.recognition.RecognitionStickersActivity"
+            android:configChanges="keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/PiBookTheme" />
+        <activity
+            android:name="gr.mobile.zisis.pibook.activity.stickers.StickersImageTrackingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/PiBookTheme" />
+        <activity
+            android:name="gr.mobile.zisis.pibook.activity.stickers.StickersActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/PiBookTheme" />
+        <activity
+            android:name="gr.mobile.zisis.pibook.activity.webview.WebviewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/PiBookTheme" />
+        <activity
+            android:name="gr.mobile.zisis.pibook.rendering.external.ExternalRenderingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="gr.mobile.zisis.pibook.rendering.internal.InternalRenderingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="gr.mobile.zisis.pibook.activity.gallery.GalleryActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/PiBookTheme" />
+        <activity
+            android:name="gr.mobile.zisis.pibook.activity.gallery.GalleryToViewPagerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/PiBookTheme" />
+        <activity
+            android:name="gr.mobile.zisis.pibook.activity.galleryGesture.GalleryGestureActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/PiBookTheme" />
+        <activity
+            android:name="gr.mobile.zisis.pibook.activity.galleryGesture.ImageDetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/PiBookTheme" />
+        <activity
+            android:name="gr.mobile.zisis.pibook.activity.video.VideoPlayerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/PiBookTheme" />
+    </application>
+
+</manifest>

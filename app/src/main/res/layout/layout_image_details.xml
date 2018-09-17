@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/imageTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/text_size_sixteen"
+        tools:text="Image 1" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imageImageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/global_margin_twenty" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/imageCaption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/text_size_sixteen"
+        tools:text="Here we set the image caption"
+        android:layout_marginTop="@dimen/global_margin_twenty"
+        android:gravity="center"/>
+
+
+</LinearLayout>
